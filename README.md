@@ -17,10 +17,10 @@ C(S) and G(S) are in series, 300/(S^2+10S+20)
 Therefore, Closed loop transfer function, (C(S))/(R(S))=300/(S^2+10S+320)
 ## Program: 
 ### Open loop System
-num[1]<brk>
-den[1 10 20]<brk>
-sys=tf(num,den)<brk>
-step(sys)<brk>
+num[1] <brk>
+den[1 10 20] <brk>
+sys=tf(num,den) <brk>
+step(sys )<brk>
 
 ### Closed loop System
 num=[300]<brk>
